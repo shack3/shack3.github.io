@@ -1,0 +1,57 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  height: 50%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.img1 { background-image: url("img1.jpg"); }
+.img2 { background-image: url("img2.jpg"); }
+.img3 { background-image: url("img3.jpg"); }
+
+
+
+.bg-text-padre{
+  width: auto;
+  position: fixed;
+  top: 59%;
+  left: 50%;
+  z-index: 2;
+  width: 300px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.bg-text {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  z-index: 2;
+  width: 300px;
+  padding: 20px;
+}
+
+.bg-text-down { /* Texto de debajo del logo*/
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  z-index: 2;
+  width: 300px;
+  padding: 20px;
+  margin-top: 10px;
+}
