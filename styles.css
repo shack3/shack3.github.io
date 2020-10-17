@@ -23,6 +23,17 @@ body, html {
 
 
 
+.bg-text-padre{
+  width: auto;
+  position: fixed;
+  top: 59%;
+  left: 50%;
+  z-index: 2;
+  width: 300px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
 .bg-text {
   background-color: rgb(0,0,0); 
   background-color: rgba(0,0,0, 0.4); 
@@ -30,26 +41,17 @@ body, html {
   font-weight: bold;
   font-size: 80px;
   border: 10px solid #f1f1f1;
-  position: fixed; 
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   z-index: 2;
   width: 300px;
   padding: 20px;
-  text-align: center;
 }
 
-.bg-text-down {
+.bg-text-down { /* Texto de debajo del logo*/
   color: white;
   font-weight: bold;
   font-size: 40px;
-  position: fixed; 
-  top: 67%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   z-index: 2;
   width: 300px;
   padding: 20px;
-  text-align: center;
+  margin-top: 10px;
 }
