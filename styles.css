@@ -55,3 +55,7 @@ body, html {
   padding: 20px;
   margin-top: 10px;
 }
+
+::-webkit-scrollbar {
+  width: 0px;
+}
